@@ -1,0 +1,77 @@
+@media screen and (max-width: 375px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body{
+        background-image: url(./images/bg-mobile.svg);
+        width: 375px;
+        background-attachment: fixed;
+    }
+
+    header {
+        margin: 2rem 3rem;
+    }
+
+    .imagem-logo{
+        width: 30vw;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .imagem-principal{
+        width: 75vw;
+        height: auto;
+    }
+
+    .body-right{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding-left: 0;
+        width: 80vw;
+    }
+
+    .social-media{
+        margin-right: 0;
+        margin-top: 2rem;
+    }
+
+    p {
+        width: 70vw;
+        margin-top: 1rem;
+        line-height: 1.5;
+        font-size: 14px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .attribution{
+        margin-left: 0;
+    }
+
+    ion-icon{
+        padding-right: 1rem;
+    }
+
+}
